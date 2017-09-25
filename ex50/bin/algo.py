@@ -35,5 +35,15 @@ def biSrch(guess, arList):
     
     print("%d not found in list. Guesses: %d" % (guess, guesses))
     
-liSrch(100, sList)
-biSrch(100, sList)
+def prFibo(num):
+    a, b = 0, 1
+    
+    while(b < num):
+        print(b)
+        a, b = b, a+b 
+        
+    print("done")
+    
+liSrch(97, sList)
+biSrch(97, sList)
+prFibo(125)
